@@ -1,0 +1,161 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Assignment_1" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="887,2348" sap2010:WorkflowViewState.IdRef="Assignment_1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="• Create a data table with the following Data Set &#xD;&#xA;• Output the value of the DT to console (Write line) &#xD;&#xA;• Display the 5th record of DT in a Message Box &#xD;&#xA;• Add 4 new rows to the same data table and write the output to csv file &#xD;&#xA;• Display only the employee ID for records whose Location is Bangalore and Employee ID is greater than 200 in message box &#xD;&#xA;• Create another data table with 3 new rows of same schema and merge it with existing Filtered Data table and then display the output in message box. &#xD;&#xA;" DisplayName="Assignment_1" sap:VirtualizedContainerService.HintSize="496,2283" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_InputData" />
+      <Variable x:TypeArguments="x:String" Name="InputData" />
+      <Variable x:TypeArguments="x:String" Name="RowData" />
+      <Variable x:TypeArguments="sd:DataTable" Name="AdditionalEmployee" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_Employee" />
+      <Variable x:TypeArguments="x:String" Name="Employee" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_AdditionalEmployee" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_BangaloreEmployee" />
+      <Variable x:TypeArguments="x:String" Name="sample" />
+      <Variable x:TypeArguments="x:String" Name="BangaloreEmployee" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_NewEmployee" />
+      <Variable x:TypeArguments="x:String" Name="MergedDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message : Create Data table " sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Creating  a data table &quot;]" />
+    <ui:BuildDataTable DataTable="[dt_Employee]" DisplayName="Build Data Table : Data is given in requirements" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;First_x0020_Name_x0020_&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xD;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xD;&#xA;        &lt;xs:field xpath=&quot;Employee_x0020_ID&quot; /&gt;&#xD;&#xA;      &lt;/xs:unique&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;312&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Rajesh&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Uipath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;456&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Vignesh&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Vicky&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Uipath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;714&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Aravind&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Balaji&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;529&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Raheem&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Cornwall&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mumbai&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate &lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;146&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Abdul&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Mohamad&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Automate Anywhere&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;325&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Divya&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Ganesh&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mumbai&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Uipath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;483&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Shruthi&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Ram&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Hyderabad&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Automate Anywhere&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;65&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Bharath&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Arun&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Noida&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;186&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Anand&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Radhakrishna&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Uipath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;334&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Sathish&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+    <ui:OutputDataTable DataTable="[dt_Employee]" DisplayName="Output Data Table as Text : Employee" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[Employee]" />
+    <WriteLine DisplayName="Write Line : To console" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Employee]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display 5th row data " sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[String.Join(&quot;,&quot;,  dt_Employee.Rows(4).ItemArray)]" />
+    <ui:BuildDataTable DataTable="[dt_AdditionalEmployee]" DisplayName="Build Data Table : additional 4 employee details " sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;First_x0020_Name_x0020_&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xD;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xD;&#xA;        &lt;xs:field xpath=&quot;Employee_x0020_ID&quot; /&gt;&#xD;&#xA;      &lt;/xs:unique&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;201&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Pinky&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Shetty&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;202&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Arun&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Pune&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;203&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Lyod&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Pinto&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangolore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Salesforce&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;204&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Derin&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Mohammed&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+    <ui:MergeDataTable Destination="[dt_Employee]" DisplayName="Merge Data Table : merge new table with original data table " sap:VirtualizedContainerService.HintSize="434,165" sap2010:WorkflowViewState.IdRef="MergeDataTable_1" MissingSchemaAction="Add" Source="[dt_AdditionalEmployee]" />
+    <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" CsvAction="Write" DataTable="[dt_Employee]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Write CSV : Wirte to assignment_1 file " FilePath="Data/Output/assignment_1" sap:VirtualizedContainerService.HintSize="434,234" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_1" ShouldQuote="True" />
+    <ui:FilterDataTable sap2010:Annotation.AnnotationText="Filter the table to get employee whose id is greter than 200 and is from bangalore " DataTable="[dt_Employee]" DisplayName="Filter Data Table : As per the requirement " FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,235" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_BangaloreEmployee]" SelectColumnsMode="Remove">
+      <ui:FilterDataTable.Filters>
+        <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+          <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+            <ui:FilterOperationArgument.Column>
+              <InArgument x:TypeArguments="x:String">["Location"]</InArgument>
+            </ui:FilterOperationArgument.Column>
+            <ui:FilterOperationArgument.Operand>
+              <InArgument x:TypeArguments="x:String">["Bangalore"]</InArgument>
+            </ui:FilterOperationArgument.Operand>
+          </ui:FilterOperationArgument>
+          <ui:FilterOperationArgument BooleanOperator="And" Operator="GT">
+            <ui:FilterOperationArgument.Column>
+              <InArgument x:TypeArguments="x:String">["Employee ID"]</InArgument>
+            </ui:FilterOperationArgument.Column>
+            <ui:FilterOperationArgument.Operand>
+              <InArgument x:TypeArguments="x:Int32">[200]</InArgument>
+            </ui:FilterOperationArgument.Operand>
+          </ui:FilterOperationArgument>
+        </scg:List>
+      </ui:FilterDataTable.Filters>
+      <ui:FilterDataTable.SelectColumns>
+        <scg:List x:TypeArguments="InArgument" Capacity="4">
+          <x:Null />
+        </scg:List>
+      </ui:FilterDataTable.SelectColumns>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:FilterDataTable>
+    <ui:OutputDataTable DataTable="[dt_BangaloreEmployee]" DisplayName="Output Data Table as Text : BangaloreEmployee" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="OutputDataTable_4" Text="[BangaloreEmployee]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display filtered table " sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[BangaloreEmployee]" />
+    <ui:BuildDataTable DataTable="[dt_NewEmployee]" DisplayName="Build Data Table : Create 3 more employee data " sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_4" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;First_x0020_Name_x0020_&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xD;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xD;&#xA;        &lt;xs:field xpath=&quot;Employee_x0020_ID&quot; /&gt;&#xD;&#xA;      &lt;/xs:unique&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;205&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Rahul&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Damodar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;206&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Sita&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Rai&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Pune&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;207&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name_x0020_&gt;Varun&lt;/First_x0020_Name_x0020_&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangolore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Salesforce&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+    <ui:MergeDataTable Destination="[dt_BangaloreEmployee]" DisplayName="Merge Data Table :New data table with filtered data table " sap:VirtualizedContainerService.HintSize="434,165" sap2010:WorkflowViewState.IdRef="MergeDataTable_2" MissingSchemaAction="Add" Source="[dt_NewEmployee]" />
+    <ui:OutputDataTable DataTable="[dt_BangaloreEmployee]" DisplayName="Output Data Table as Text : Merged Datatable " sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="OutputDataTable_5" Text="[MergedDataTable]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box : display merged data table " sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[MergedDataTable]" />
+  </Sequence>
+</Activity>
